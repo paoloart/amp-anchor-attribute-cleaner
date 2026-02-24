@@ -42,3 +42,7 @@ Included assets with mimir.bot logo:
 
 - `assets/icon-128x128.png`
 - `assets/icon-256x256.png`
+
+## Documentation
+
+- `docs/USAGE-AND-VERIFICATION.md`

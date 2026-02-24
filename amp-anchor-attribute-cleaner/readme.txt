@@ -4,7 +4,7 @@ Tags: amp, links, sanitizer, validation
 Requires at least: 5.8
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,13 @@ No. It removes `type` and `id` only from internal links.
 No software can be guaranteed 100% secure, but this implementation is hardened: no user input, no custom endpoints, no database writes, and render-time-only sanitization.
 
 == Changelog ==
+
+= 1.1.1 =
+
+- WordPress metadata update: added `Domain Path`.
+- Compatibility hardening: removed `strict_types` declaration.
+- Added `uninstall.php` cleanup stub.
+- Documentation filenames switched to fully English naming.
 
 = 1.1.0 =
 
