@@ -1,5 +1,5 @@
 === AMP Anchor Attribute Cleaner ===
-Contributors: mimirbot
+Contributors: srobodao
 Tags: amp, links, sanitizer, validation
 Requires at least: 5.8
 Tested up to: 6.9
@@ -39,6 +39,16 @@ Practical example:
 - After: `<a href="/internal-page">Read</a>`
 
 External links are left unchanged.
+
+== Additional Information ==
+
+This plugin was created to solve a practical AMP validation issue on internal links generated in WordPress content, where anchor tags may include attributes like `type="post"` and numeric `id` values.
+
+In strict AMP scenarios, these attributes can contribute to validation errors and may prevent pages from being served as valid AMP.
+
+AMP Anchor Attribute Cleaner removes only `type` and `id` from internal `<a>` tags at render time. It does not modify saved post content and does not alter external links.
+
+The purpose is to keep AMP pages cleaner and easier to validate without changing the editorial workflow.
 
 == Assets ==
 
