@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: AMP Anchor Attribute Cleaner
- * Plugin URI: https://mimir.bot/
+ * Plugin URI: https://github.com/paoloart/amp-anchor-attribute-cleaner
  * Description: Removes "type" and "id" attributes from internal anchor tags in rendered content to improve AMP compatibility.
  * Version: 1.1.3
  * Requires at least: 5.8
