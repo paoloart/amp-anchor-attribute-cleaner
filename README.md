@@ -47,4 +47,4 @@ Included assets with mimir.bot logo:
 
 - `docs/USAGE-AND-VERIFICATION.md`
 - `SECURITY.md`
-- `WORDPRESS-RELEASE-CHECKLIST.md`
+- `docs/WORDPRESS-RELEASE-CHECKLIST.md`

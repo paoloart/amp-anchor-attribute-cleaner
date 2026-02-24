@@ -2,9 +2,9 @@
 Contributors: mimirbot
 Tags: amp, links, sanitizer, validation
 Requires at least: 5.8
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,10 +76,17 @@ No software can be guaranteed 100% secure, but this implementation is hardened: 
 
 == Changelog ==
 
+= 1.1.3 =
+
+- Replaced `parse_url()` with `wp_parse_url()` for WordPress coding standards compatibility.
+- Updated `Tested up to` to WordPress 6.9.
+- Added `languages/` directory to match `Domain Path` header.
+- Moved release checklist file into `docs/` to satisfy plugin root file checks.
+
 = 1.1.2 =
 
 - Added `SECURITY.md` with responsible disclosure policy.
-- Added `WORDPRESS-RELEASE-CHECKLIST.md` for submission workflow.
+- Added `docs/WORDPRESS-RELEASE-CHECKLIST.md` for submission workflow.
 - Added upgrade notice section.
 
 = 1.1.1 =
