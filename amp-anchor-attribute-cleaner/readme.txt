@@ -4,7 +4,7 @@ Tags: amp, links, sanitizer, validation
 Requires at least: 5.8
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,12 @@ No software can be guaranteed 100% secure, but this implementation is hardened: 
 
 == Changelog ==
 
+= 1.1.2 =
+
+- Added `SECURITY.md` with responsible disclosure policy.
+- Added `WORDPRESS-RELEASE-CHECKLIST.md` for submission workflow.
+- Added upgrade notice section.
+
 = 1.1.1 =
 
 - WordPress metadata update: added `Domain Path`.
@@ -93,3 +99,9 @@ No software can be guaranteed 100% secure, but this implementation is hardened: 
 
 - First stable release.
 - Removal of `type` and `id` attributes from internal links in rendered output.
+
+== Upgrade Notice ==
+
+= 1.1.2 =
+
+Recommended maintenance release with release-process documentation and disclosure policy.
